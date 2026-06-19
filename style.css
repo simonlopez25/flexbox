@@ -26,12 +26,29 @@ section .image-container {
 section .image-container p {
   font-family: "Segoe UI", system-ui, sans-serif;
   color: #5f1818;
-  margin-bottom: 0.8rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  margin-bottom: 1rem;
   min-height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  color: #5f1818;
+  font-size: clamp(2.2rem, 5vw + 1rem, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.5px;
+
+  text-shadow: 2px 4px 10px rgba(95, 24, 24, 0.15);
+
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 section img {
